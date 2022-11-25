@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Marek</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-home nav__icon"></i> Główna 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> O mnie 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Umiejętności
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-bag nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contakt" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Kontakt
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/marek-rzepka-485277233/" target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/marooonio" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/just_mar3k/" target="_blank" class="home_social-icon">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='24' y='-30' xlink:href="img/face.png"/>
+                            </g>
+                        </svg>                        
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Cześć, to ja Marek</h1>
+                        <h3 class="home__subtitle">FrontEnd Developer</h3>
+                        <p class="home__description">Młody, utalentowany programista tworzący dobre strony internetowe i aplikacje z pasji.</p>
+                        <a href="#contact" class="button button--flex">
+                            Napisz do mnie <i class="uil uil-message"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse home__scroll-mouse"></i>
+                        <span class="home_scroll-name">Przewiń w dół</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="abiut">
+            <h2 class="section__title">O mnie</h2>
+            <span class="section__subtitle">Po krótce</span>
+
+            <div class="about__container container grid">
+                <img src="img/me.PNG" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Jestem początkującym front deweloperem. Znam HTML5, CSS oraz JavaScipt (Node.js, React). 
+                        Znam systemy CMS Wordpress oraz PrestShop.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">1+</span>
+                            <span class="about__info-name">Lat <br> doświadczenia</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">Kilka</span>
+                            <span class="about__info-name">Stworzonych <br> projektów</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1+</span>
+                            <span class="about__info-name">Zatrudnień w <br> przedsiębiorstwach</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">&infin;</span>
+                            <span class="about__info-name">Pomysłów <br> w głowie</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="pdf/Marek Rzepka CV(polskie).pdf" class="button button--flex" target="_blank">
+                            CV PL 
+                        </a>
+                        <a href="pdf/Marek Rzepka CV(angielskie).pdf" class="button button--flex" target="_blank">
+                            CV EN 
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Poziom</h2>
+            <span class="section__subtitle">moich umiejętności</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <span class="skills__subtitle">nie byłem jeszcze zatrudniony</span>
+                            </div>
+
+                            <i class="uil uil-arrow-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__javascript"></span>
+                                </div>
+                            </div>
+                        
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend developer</h1>
+                                <span class="skills__subtitle">ukończony kurs</span>
+                                <i class="uil uil-arrow-right"></i> <a href="https://www.megak.pl/" class="button--megak" target="_blank">MegaK</a> 
+                                <span class="skills__subtitle">pierwsza edycja</span>
+                            </div>
+
+                            <i class="uil uil-arrow-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Express.js</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__express"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section__title">Kwalifikacje</h2>
+            <span class="section__subtitle">Edukacja i doświadczenie</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap"></i>
+                        Edukacja
+                    </div>
+                    <div class="qualification__button button--flex" data-target='#work'>
+                        <i class="uil uil-bag-alt"></i>
+                        Praca
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">Technikum Informatyczne</h3>
+                                <span class="qualification__subtitle">Zespól Szkół Ponadgimnazjalnych w Zawadzkiem</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Cambridge University Press & Assessment English</h3>
+                                <span class="qualification__subtitle">Poziom B1 - Wynik 150</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Kurs MegaK Javascript</h3>
+                                <span class="qualification__subtitle">Ocena - 4/5</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification__content" data-content id="work">
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Młodszy Administrator</h3>
+                                <span class="qualification__subtitle">GRUPA ZIELONY-PARAPET Sp. z o.o.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 - 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <!-- <div>
+                                <h3 class="qualification__title">Młodszy Administrator</h3>
+                                <span class="qualification__subtitle">GRUPA ZIELONY-PARAPET Sp. z o.o.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 - 
+                                </div>
+                            </div> 
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">Projekty</h2>
+            <span class="section__subtitle">jakie stworzyłem</span>
+
+            <div class="serices__container container grid">
+                <div class="servcies__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Zobacz więcej
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal--close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-square services__modal-icon"></i>
+                                    <p>Stworzyłem aplikację Blogową.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-square services__modal-icon"></i>
+                                    <p>Strony internetowe.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-square services__modal-icon"></i>
+                                    <p>Outsourcing.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script src="js/menu.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/qualification.js"></script>
+</body>
+</html>
